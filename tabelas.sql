@@ -68,44 +68,44 @@ CREATE TABLE [item_comprado] (
 );
 
 
-ALTER TABLE contratacao ADD CONSTRAINT contratado_contratacao_fk
+ALTER TABLE [contratacao] ADD CONSTRAINT contratado_contratacao_fk
 FOREIGN KEY (cnpj)
-REFERENCES contratado (cnpj)
+REFERENCES [contratado] (cnpj)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE contratacao ADD CONSTRAINT contrato_contratacao_fk
+ALTER TABLE [contratacao] ADD CONSTRAINT contrato_contratacao_fk
 FOREIGN KEY (numero_contrato)
-REFERENCES contrato (numero_contrato)
+REFERENCES [contrato] (numero_contrato)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE orgao ADD CONSTRAINT orgao_superior_orgao_fk
+ALTER TABLE [orgao] ADD CONSTRAINT orgao_superior_orgao_fk
 FOREIGN KEY (id_orgao_superior)
-REFERENCES orgao_superior (id_orgao_superior)
+REFERENCES [orgao_superior] (id_orgao_superior)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE unidade_gestora ADD CONSTRAINT orgao_unidade_gestora_fk
+ALTER TABLE [unidade_gestora] ADD CONSTRAINT orgao_unidade_gestora_fk
 FOREIGN KEY (id_orgao)
-REFERENCES orgao (id_orgao)
+REFERENCES [orgao] (id_orgao)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE contratacao ADD CONSTRAINT unidade_gestora_contratacao_fk
+ALTER TABLE [contratacao] ADD CONSTRAINT unidade_gestora_contratacao_fk
 FOREIGN KEY (id_unidade_gestora)
 REFERENCES unidade_gestora (id_unidade_gestora)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE item_comprado ADD CONSTRAINT contratacao_item_comprado_fk
+ALTER TABLE [item_comprado] ADD CONSTRAINT contratacao_item_comprado_fk
 FOREIGN KEY (id_contratacao)
-REFERENCES contratacao (id_contratacao)
+REFERENCES [contratacao] (id_contratacao)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE termo_aditivo ADD CONSTRAINT contratacao_termo_aditivo_fk
+ALTER TABLE [termo_aditivo] ADD CONSTRAINT contratacao_termo_aditivo_fk
 FOREIGN KEY (id_contratacao)
-REFERENCES contratacao (id_contratacao)
+REFERENCES [contratacao] (id_contratacao)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
