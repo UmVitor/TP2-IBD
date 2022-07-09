@@ -1,0 +1,23 @@
+
+insert into orgao_superior(id_orgao_superior) values
+(26000,'Ministério da Educação'),
+(40000,'Ministério do Trabalho'),
+(52000,'Ministério da Defesa'),
+(44000,'Ministério do Meio Ambiente'),
+(41000,'Ministério das Comunicações'),
+(30000,'Ministério da Justiça e Segurança Pública'),
+(36000,'Ministério da Saúde'),
+(22000,'Ministério da Agricultura, Pecuária e Abastec'),
+(55000,'Ministério da Cidadania'),
+(54000,'Ministério do Turismo'),
+(25000,'Ministério da Economia'),
+(20000,'Presidência da República'),
+(24000,'Ministério da Ciência, Tecnologia, Inovações'),
+(39000,'Ministério da Infraestrutura'),
+(53000,'Ministério do Desenvolvimento Regional'),
+(63000,'Advocacia-Geral da União'),
+(32000,'Ministério de Minas e Energia'),
+(25201,'Banco Central do Brasil - Orçamento Fiscal e '),
+(81000,'Ministério da Mulher, Família e Direitos Huma'),
+(35000,'Ministério das Relações Exteriores'),
+(37000,'Controladoria-Geral da União')
