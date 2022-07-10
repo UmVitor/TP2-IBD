@@ -287,7 +287,8 @@ insert into orgao(id_orgao_superior, id_orgao, nome) values (26000, 26290, 'Inst
 insert into orgao(id_orgao_superior, id_orgao, nome) values (39000, 62901, 'Fundo Nacional de Aviação Civil');
 insert into orgao(id_orgao_superior, id_orgao, nome) values (20000, 60000, 'Gabinete da Vice-Presidência da República');
 
-insert into unidade_gestora(id_orgao, id_unidade_gestora, nome) values (26256,	153010,	'CENTRO FED.DE EDUC.TECNOL.CELSO S.DA FONSECA'),
+
+insert into unidade_gestora(id_orgao, id_unidade_gestora, nome) values (26256,	153010,	'CENTRO FED.DE EDUC.TECNOL.CELSO S.DA FONSECA');
 insert into unidade_gestora(id_orgao, id_unidade_gestora, nome) values (37202,	510180,	'SUPERINTENDENCIA REGIONAL SUDESTE II');
 insert into unidade_gestora(id_orgao, id_unidade_gestora, nome) values (52121,	160028,	'35º BATALHAO DE INFANTARIA');
 insert into unidade_gestora(id_orgao, id_unidade_gestora, nome) values (52121,	160091,	'CENTRO INTEGRADO DE TELEMATICA DO EXERCITO');
