@@ -285,5 +285,5 @@ insert into orgao(id_orgao_superior, id_orgao, nome) values (53000, 53202, 'Supe
 insert into orgao(id_orgao_superior, id_orgao, nome) values (44000, 44000, 'Ministério do Meio Ambiente - Unidades com ví');
 insert into orgao(id_orgao_superior, id_orgao, nome) values (26000, 26290, 'Instituto Nacional de Estudos e Pesquisas Edu');
 insert into orgao(id_orgao_superior, id_orgao, nome) values (39000, 62901, 'Fundo Nacional de Aviação Civil');
-insert into orgao(id_orgao_superior, id_orgao, nome) values (20000, 60000, 'Gabinete da Vice-Presidência da República';
+insert into orgao(id_orgao_superior, id_orgao, nome) values (20000, 60000, 'Gabinete da Vice-Presidência da República');
 
