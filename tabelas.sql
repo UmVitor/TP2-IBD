@@ -96,7 +96,6 @@ insert into orgao_superior(id_orgao_superior, nome) values (81000,'Ministério d
 insert into orgao_superior(id_orgao_superior, nome) values (35000,'Ministério das Relações Exteriores');
 insert into orgao_superior(id_orgao_superior, nome) values (37000,'Controladoria-Geral da União');
 
-insert into orgao(id_orgao_superior, id_orgao, nome) values
 insert into orgao(id_orgao_superior, id_orgao, nome) values (26000, 26256, 'Centro Federal de Educação Tecnológica Celso ');
 insert into orgao(id_orgao_superior, id_orgao, nome) values (40000, 37202, 'Instituto Nacional do Seguro Social');
 insert into orgao(id_orgao_superior, id_orgao, nome) values (52000, 52121, 'Comando do Exército');
