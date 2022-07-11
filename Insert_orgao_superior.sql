@@ -1,5 +1,5 @@
 
-insert into orgao_superior(id_orgao_superior) values
+insert into orgao_superior(id_orgao_superior, nome) values
 (26000,'Ministério da Educação'),
 (40000,'Ministério do Trabalho'),
 (52000,'Ministério da Defesa'),
