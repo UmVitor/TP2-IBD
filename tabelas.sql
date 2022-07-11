@@ -59,7 +59,7 @@ CREATE TABLE termo_aditivo (
                 id_contratacao INT NOT NULL,
                 data_publicacao DATE NOT NULL,
                 objeto VARCHAR(500) NOT NULL,
-                PRIMARY KEY (id_termo_aditivo, id_contrato),
+                PRIMARY KEY (id_termo_aditivo),
                 FOREIGN KEY (id_contratacao, id_contrato) REFERENCES contratacao (id_contratacao, id_contrato)
 );
 
