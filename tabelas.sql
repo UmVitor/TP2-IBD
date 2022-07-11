@@ -68,7 +68,7 @@ CREATE TABLE item_comprado (
                 id_item INT NOT NULL,
                 id_contrato INT NOT NULL,
                 id_contratacao INT NOT NULL,
-                quatidade INT NOT NULL,
+                quantidade INT NOT NULL,
                 valor_unitario DOUBLE PRECISION NOT NULL,
                 PRIMARY KEY (id_item),
                 FOREIGN KEY (id_contratacao, id_contrato) REFERENCES contratacao (id_contratacao, id_contrato)
